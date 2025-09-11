@@ -25,7 +25,7 @@ class Dog extends Animal {
     }
 
     void showType() { // 2nd call
-        System.out.println("Dog type: " + type); 
+        System.out.println("Dog type: " + this.type); 
         System.out.println("Animal type: " + super.type);
     }
 }
